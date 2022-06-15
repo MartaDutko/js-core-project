@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My page</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<!--main block-->
+<div class="conteiner">
+    <div class="topBlock style">
+        <p> Lorem lorem ipsum dolor sit amet.</p>
+        <p> Lorem lorem ipsum dolor sit amet.</p>
+        <p> Lorem lorem ipsum dolor sit amet.</p>
+        <p> Lorem lorem ipsum dolor sit amet.</p>
+        <p> Lorem lorem ipsum dolor sit amet.</p>
+    </div>
+    <div class="centralBlock">
+        <input type="button" value="edit" class="btEdit button">
+        <input type="button" value="style" class="btStyle button">
+    </div>
+    <div class="bottomBlock style">
+        <div class="containerText">
+            <textarea class="textarea"></textarea>
+            <input type="button" value="add" class="btAdd button">
+            <input type="button" value="save" class="btSave button">
+        </div>
+        <div class="conteinerStyle">
+            <div class="fontSize">
+                <p>Font size:</p>
+                <input type="radio" name="radSize" value="12px" id="12">
+                <label for="12">12px</label>
+                <input type="radio" name="radSize" value="14px" id="14" checked>
+                <label for="14">14px</label>
+                <input type="radio" name="radSize" value="16px" id="16">
+                <label for="16">16px</label>
+                <input type="radio" name="radSize" value="18px" id="18">
+                <label for="18">18px</label>
+                <input type="radio" name="radSize" value="20px" id="20">
+                <label for="20">20px</label>
+            </div>
+            <div class="Blockfamily">
+                <p>Font Family</p>
+                <select class="fontFamily">
+                    <option selected disabled>choose option</option>
+                    <option value="cursive">cursive</option>
+                    <option value="fantasy">fantasy</option>
+                    <option value="monospace">monospace</option>
+                    <option value="sans-serif">sans-serif</option>
+                </select>
+            </div>
+            <div class="colors">
+                <p>Colors:</p>
+                <input type="button" value="Color of Text" class="btTextColor colorButton">
+                <div class="textColor conteinerColor">
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                </div>
+                <input type="button" value="Background color" class="btBackgroundColor colorButton">
+                <div class="backColor conteinerColorBac">
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                    <div class="boxColor"></div>
+                </div>
+            </div>
+            <div class="fontStyle">
+                <p>Style:</p>
+                <input type="checkbox" value="bold" id="boldText">
+                <label for="boldText">Bold text</label>
+                <input type="checkbox" value="italic" id="cursiveText">
+                <label for="cursiveText">Cursive text</label>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<!--option block -->
+<div class="chosenList">
+    <p>Choose what you want:</p>
+    <input type="radio" id="list" name="radio">
+    <label for="list">list</label>
+    <input type="radio" id="table" name="radio">
+    <label for="table">table</label>
+    <div class="listBlock">
+        <label class="listLi" for="countLi">Count Li:</label>
+        <input type="text" id="countLi" class="inputLi" placeholder="Count Li" value="">
+        <div class="typeMarks">
+        <label for="typeMarks" >Type of marks:</label>
+        <select id="typeMarks" class="inputLi">
+            <option selected value="circle">circle</option>
+            <option value="disk">disk</option>
+            <option value="square">square</option>
+        </select>
+        </div>
+        <input type="button" class="createButton" value="Create list">
+    </div>
+<div class="tableBlock" >
+   <label for="countTr" >Count TR:</label>
+    <input type="text" placeholder="Count TR:" id="countTr" class="tableCount">
+    <label for="countTd">Count TD:</label>
+    <input type="text" placeholder="Count TD:" id="countTd" class="tableCount">
+    <h3 class="tableTitle">Add style to your table:</h3>
+    <label for="wightTd" class="labelStyle">Width of TD:</label>
+    <input type="text" placeholder="Wight of TD:" id="wightTd" class="wightCount">
+    <label for="heightTd" class="labelStyle">Height of TD:</label>
+    <input type="text" placeholder="Height of TD:" id="heightTd" class="heightCount">
+    <div class="tableBorder">
+        <label for="borderWidth" class="widthBorder">Width of border:</label>
+        <input type="number" placeholder="Width:" id="borderWidth" class="widthBord">
+        <label for="typeBorder" class="widthBorder">Type of Border:</label>
+        <select id="typeBorder">
+            <option value="solid">solid</option>
+            <option value="dotted">dotted</option>
+            <option value="dashed">dashed</option>
+        </select>
+        <label for="colorBorder" class="widthBorder"> Color of border:</label>
+        <select id="colorBorder">
+             <option value="black">black</option>
+             <option value="white">white</option>
+             <option value="red">red</option>
+             <option value="blue">blue</option>
+             <option value="purple">purple</option>
+        </select>
+    </div>
+    <input type="button" class="createButton" value="Create table" id="tableButton">
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

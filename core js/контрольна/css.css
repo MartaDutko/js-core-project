@@ -1,0 +1,183 @@
+@import "reset.css";
+body {
+    display: flex;
+    justify-content: center;
+}
+.conteiner {
+    width: 500px;
+    height: 550px;
+}
+.style {
+    width: 100%;
+    height: 250px;
+    padding: 20px;
+    background-color: #cccaca;
+    border: 1px solid black;
+}
+.topBlock {
+    height: max-content;
+    min-height: 250px;
+}
+.centralBlock {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button {
+    width: 70px;
+    height: 30px;
+    border: 0px;
+    border-radius: 5px;
+}
+.btEdit {
+    margin-right: 5px;
+    background-color: orange;
+}
+.btStyle {
+    color: white;
+    background-color: #026e94;
+}
+.containerText {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.textarea {
+    width: 100%;
+    height: 150px;
+    resize: none;
+    background-color: white;
+}
+.btAdd {
+    color: white;
+    background-color: red;
+}
+.btSave {
+    color: white;
+    background-color: green;
+}
+.conteinerStyle {
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.Blockfamily {
+    margin: 15px 0 15px 0;
+}
+.colorButton {
+    width: 100px;
+    height: 30px;
+    font-size: 10px;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    background-color: #6c6c6c;
+}
+.colors {
+    position: relative;
+}
+.conteinerColor {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    flex-wrap: wrap;
+    display: none;
+}
+.conteinerColorBac {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    right: 15px;
+    bottom: 0px;
+    flex-wrap: wrap;
+    display: none;
+}
+.boxColor {
+    width: 30px;
+    height: 30px;
+    outline: 1px solid black;
+}
+.fontStyle {
+    margin: 10px 0 10px 0;
+}
+.chosenList {
+    width: 620px;
+    height: max-content;
+    background-color: #c0c0c0;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 20px 20px 50px 20px;
+    display: none;
+}
+.listBlock {
+    height: 160px;
+    padding: 20px 20px;
+    display: none;
+}
+.listLi {
+    margin-right: 35px;
+}
+.inputLi {
+    width: 300px;
+    height: 25px;
+}
+.typeMarks {
+    margin-top: 20px;
+}
+.createButton {
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.tableBlock {
+    width: 100%;
+    height: 300px;
+    display: none;
+}
+.tableCount {
+    width: 80%;
+    margin: 10px 0 10px 35px;
+}
+.tableTitle {
+    margin: 0;
+}
+.wightCount {
+    width: 80%;
+    margin: 10px 0 10px 22px;
+}
+.heightCount {
+    width: 80%;
+    margin: 10px 0 10px 20px;
+}
+.labelStyle {
+    font-size: 15px;
+}
+.tableBorder {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 95%;
+}
+.widthBorder {
+    font-size: 13px;
+    margin-top: 5px;
+}
+.widthBord {
+    width: 60px;
+}
+.colorShow {
+    display: flex;
+}
+.show {
+    display: block;
+}
+.invisible {
+    display: none;
+}
